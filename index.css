@@ -24,7 +24,7 @@ button {
 button:hover {
     font-style: 1.2em;
     padding: 7px 12px;
-    /* transition: all 0.4s linear; */
+    transition: all 0.4s linear;
     background-color: #80B0DE;
     animation: 1.5s infinite boton-menu;
 }
@@ -120,11 +120,15 @@ li {
     font-size: 1.25em;
 }
 
+
+
 .pie{
     background-color: #252c61; ;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: 100px;
+    
 
 }
 
