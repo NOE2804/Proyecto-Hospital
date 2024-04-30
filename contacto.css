@@ -24,7 +24,7 @@ button {
 button:hover {
     font-style: 1.2em;
     padding: 7px 12px;
-    /* transition: all 0.4s linear; */
+    transition: all 0.4s linear;
     background-color: #80B0DE;
     animation: 1.5s infinite boton-menu;
 }
@@ -53,6 +53,12 @@ button:hover {
     border-radius: 30px;    
 }
 
+.logo-navegador-contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .header a {
     color: white;
     text-decoration: none;
@@ -75,11 +81,6 @@ button:hover {
     display: inline-block;
 }
 
-.navegacion ul li a {
-    display: block;
-    padding: 1em 1em;
-    transition: all 0.4s linear;
-}
 
 .navegacion ul li a:hover {
 border-radius: 5px;
@@ -120,13 +121,70 @@ li {
     font-size: 1.25em;
 }
 
+
+
+
+.form{
+    display: block;
+    background-color: white;
+    padding: 30px;
+    margin:auto;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    color: #252c61;
+   
+        
+}
+
+
+.form p{
+    font-size: small;
+
+}
+
+.completar{
+    width: 500px;
+    border-style: double;
+    padding: 30px;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: #98ABEE;
+    align-items: center;
+   
+}
+
+.controls{
+    width: 100%;
+    margin-bottom: 20px;
+    color: #252c61;
+   
+}
+
+.botons{
+    
+    background-color: #252c61;
+    color: white;
+    margin-top: 20px;
+    width: 25%;
+    
+    
+    
+   
+}
+
+
+
+
 .pie{
     background-color: #252c61; ;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 
 }
+
+
 
 .pie ul li a {
     text-decoration: none;
@@ -147,3 +205,5 @@ li {
 .pie p{
     color: white;
 }
+
+
